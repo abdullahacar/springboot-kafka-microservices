@@ -10,6 +10,7 @@
         <module name="stock-service" />
         <module name="base-domains" />
         <module name="order-service" />
+        <module name="eureka-server" />
         <module name="email-service" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="base-domains" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="email-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="stock-service" options="-parameters" />
     </option>
